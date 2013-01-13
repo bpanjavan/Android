@@ -185,3 +185,38 @@ org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+!SESSION 2013-01-05 20:53:48.065 -----------------------------------------------
+eclipse.buildId=v21.0.0-531062
+java.version=1.7.0_09
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product com.android.ide.eclipse.adt.package.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.android.ide.eclipse.adt.package.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2013-01-05 20:53:50.938
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.android.ide.eclipse.ddms 4 0 2013-01-05 20:53:55.679
+!MESSAGE DDMS files not found: C:\Sandbox\Android\adt-bundle-windows-x86\adt-bundle-windows-x86\sdk\platform-tools\adb.exe C:\Sandbox\Android\adt-bundle-windows-x86\adt-bundle-windows-x86\sdk\tools\hprof-conv.exe C:\Sandbox\Android\adt-bundle-windows-x86\adt-bundle-windows-x86\sdk\tools\traceview.bat 
+!SESSION 2013-01-12 11:18:06.608 -----------------------------------------------
+eclipse.buildId=v21.0.0-531062
+java.version=1.7.0_09
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product com.android.ide.eclipse.adt.package.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.android.ide.eclipse.adt.package.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2013-01-12 11:19:29.365
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2013-01-12 11:48:05.294
+!MESSAGE Failed to load properties file for project 'SampleLayout'
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2013-01-12 14:26:21.804
+!MESSAGE Warning: Ignoring name conflict in resource file for name hello_world
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2013-01-12 14:26:21.806
+!MESSAGE Warning: Ignoring name conflict in resource file for name menu_settings
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2013-01-12 14:51:42.452
+!MESSAGE Failed to load properties file for project 'SampleDatabase'

@@ -1,0 +1,50 @@
+package com.example.sampledatabase;
+
+import android.provider.BaseColumns;
+
+public abstract class UsageProcessorContract
+{
+	public abstract class Usage implements BaseColumns {
+
+		public static final String TABLE_NAME = "Usage";
+		public static final String COLUMN_NAME_USAGE_ID = "usageid";
+		public static final String COLUMN_NAME_DATEFROM = "datefrom";
+		public static final String COLUMN_NAME_DATETO = "dateto";
+		public static final String COLUMN_NAME_Quantity = "quantity";
+		
+		// to prevent instantiation
+		private Usage(){}
+		
+	}	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

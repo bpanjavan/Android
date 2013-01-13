@@ -1,0 +1,68 @@
+package com.example.sampledatabase;
+
+import android.provider.BaseColumns;
+
+public abstract class UsageProcessorContract
+{
+	// private constructor to avoid instantiation
+	private UsageProcessorContract(){}
+
+	// Create Database and Tables
+	private static final String TEXT_TYPE = " TEXT";
+	private static final String COMMA_SEP = ",";
+	
+	private static final String SQL_CREATE_ENTRIES =
+	    "CREATE TABLE " + UsageProcessorContract.Usage.TABLE_NAME + " (" +
+	   UsageProcessorContract.Usage._ID + " INTEGER PRIMARY KEY," +
+	   UsageProcessorContract.Usage.COLUMN_NAME_USAGE_ID + TEXT_TYPE + COMMA_SEP +
+	   UsageProcessorContract.Usage.COLUMN_NAME_DATEFROM + TEXT_TYPE + COMMA_SEP +
+	   UsageProcessorContract.Usage.COLUMN_NAME_DATETO + TEXT_TYPE + COMMA_SEP +
+	   UsageProcessorContract.Usage.COLUMN_NAME_QUANTITY + TEXT_TYPE
+	    " )";
+
+	private static final String SQL_DELETE_ENTRIES =
+	    "DROP TABLE IF EXISTS " + TABLE_NAME_ENTRIES;
+	
+	
+	// TABLE: Usage
+	public abstract class Usage implements BaseColumns {
+
+		public static final String TABLE_NAME = "Usage";
+		public static final String COLUMN_NAME_USAGE_ID = "usageid";
+		public static final String COLUMN_NAME_DATEFROM = "datefrom";
+		public static final String COLUMN_NAME_DATETO = "dateto";
+		public static final String COLUMN_NAME_QUANTITY = "quantity";
+				
+	}	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

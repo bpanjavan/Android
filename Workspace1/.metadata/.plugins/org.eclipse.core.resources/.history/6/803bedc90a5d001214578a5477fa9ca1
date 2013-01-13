@@ -1,0 +1,5 @@
+package com.example.sampledatabase;
+
+public abstract class Usage extends BaseColumns {
+
+}

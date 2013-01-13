@@ -1,6 +1,6 @@
 /*
  * This file is auto-generated.  DO NOT MODIFY.
- * Original file: C:\\Sandbox\\Android\\Workspace1\\ApiDemos\\src\\com\\example\\android\\apis\\app\\IRemoteServiceCallback.aidl
+ * Original file: C:\\Sandbox\\Github\\Android\\Workspace1\\ApiDemos\\src\\com\\example\\android\\apis\\app\\IRemoteServiceCallback.aidl
  */
 package com.example.android.apis.app;
 /**
